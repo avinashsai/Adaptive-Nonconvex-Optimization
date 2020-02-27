@@ -80,7 +80,7 @@ def main():
                 print("Training ResNet50 on CIFAR-10")
                 model = models.resnet50.ResNet50(BasicBlock50, [3, 4, 6, 3]).to(device)
         
-            num_epochs = 1
+            num_epochs = 500
             test_loss, test_acc = train(model, device, train_loader, test_loader, num_epochs, 
                                         val_loader=None)
             print("------|----------------|----------------|")
