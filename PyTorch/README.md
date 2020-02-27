@@ -16,6 +16,8 @@ cd PyTorch
 ```
 ## Step-2:
 
+***Note: This implementation currently supports Image Classification only***
+
 ```
 python main.py --task (image classification (default) | auto encoders | machine translation) 
                --nocuda (Disable or Enable cuda (default: False)
