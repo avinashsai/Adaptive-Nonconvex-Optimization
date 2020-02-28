@@ -1,12 +1,12 @@
 import torch
 import torchvision
 from torchvision import datasets, transforms
-datapath = '/CIFAR-10/'
 train_batch_size = 128
 test_batch_size = 64
 
 
 def get_cifar10():
+    datapath = '../CIFAR-10/'
     transform = transforms.Normalize(mean=[0.485, 0.456, 0.406],
                                      std=[0.229, 0.224, 0.225])
 
