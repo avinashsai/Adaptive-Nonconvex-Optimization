@@ -1,7 +1,7 @@
 # Getting Started
 
 
-1. This repository consists of the experiments to reproduce results in the paper (https://papers.nips.cc/paper/8186-adaptive methods-for-nonconvex-optimization) in PyTorch
+1. This repository consists of the experiments to reproduce results in the [paper](https://papers.nips.cc/paper/8186-adaptive-methods-for-nonconvex-optimization) in PyTorch
 
 2. Implementation of yogi optimizer proposed in the paper.
 
